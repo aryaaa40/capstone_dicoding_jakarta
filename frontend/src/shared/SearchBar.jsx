@@ -26,21 +26,21 @@ const SearchBar = () => {
                 <FormGroup className='d-flex gap-3 form__group form__group-fast'>
                     <span><i class="ri-map-pin-line"></i></span>
                     <div>
-                        <h6>Location</h6>
-                        <input type="text" placeholder='Where are you going?' ref={locationRef} />
+                        <h6>Lokasi</h6>
+                        <input type="text" placeholder='Kemana anda pergi?' ref={locationRef} />
                     </div>
                 </FormGroup>
                 <FormGroup className='d-flex gap-3 form__group form__group-fast'>
                     <span><i class="ri-map-pin-time-line"></i></span>
                     <div>
-                        <h6>Distance</h6>
-                        <input type="number" placeholder='Distance k/m' ref={distanceRef} />
+                        <h6>Jarak</h6>
+                        <input type="number" placeholder='Jarak k/m' ref={distanceRef} />
                     </div>
                 </FormGroup>
                 <FormGroup className='d-flex gap-3 form__group form__group-fast'>
                     <span><i class="ri-group-line"></i></span>
                     <div>
-                        <h6>Max People</h6>
+                        <h6>Maksimal Orang</h6>
                         <input type="number" placeholder='0' ref={maxGroupSizeRef} />
                     </div>
                 </FormGroup>

@@ -1,7 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { Container, Row, Button } from 'reactstrap'
 import { NavLink, Link } from 'react-router-dom'
-import logo from '../../assets/images/logo.png'
 import './header.css'
 
 const nav__links = [
@@ -11,11 +10,11 @@ const nav__links = [
     },
     {
         path: '/about',
-        display: 'About'
+        display: 'Tentang Kami'
     },
     {
         path: '/tours',
-        display: 'Tours'
+        display: 'Wisata'
     },
 ]
 
@@ -46,11 +45,11 @@ const Header = () => {
             <Container>
                 <Row>
                     <div className="nav__wrapper d-flex align-items-center justify-content-between">
-                        {/* ===logo===*/}
-                        <div className="logo">
-                            <img src={logo} alt="" />
+                        {/* brand*/}
+                        <div className="brand">
+                            <h1>BaliNesia</h1>
                         </div>
-                        {/* ===logo end===*/}
+                        {/* ===brand end===*/}
 
                         {/* ===menu start===*/}
                         <div className="navigation">
@@ -65,8 +64,8 @@ const Header = () => {
                         {/* ===menu end===*/}
                         <div className="nav__right d-flex align-items-center gap-4">
                             <div className="nav__btns d-flex align-items-center gap-4">
-                                <Button className='btn secondary__btn'><Link to='/Login'>Login</Link></Button>
-                                <Button className='btn primary__btn'><Link to='/register'>Register</Link></Button>
+                                <Button className='btn secondary__btn'><Link to='/Login'>Masuk</Link></Button>
+                                <Button className='btn primary__btn'><Link to='/register'>Daftar</Link></Button>
                             </div>
                             <span className="mobile__menu">
                                 <i class="ri-menu-line"></i>

@@ -4,7 +4,6 @@ import './footer.css'
 import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap';
 
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.png";
 
 const quick__links = [
     {
@@ -48,10 +47,8 @@ const Footer = () => {
             <Container>
                 <Row>
                     <Col lg='3'>
-                        <div className="logo">
-                            <img src={logo} alt="" />
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem, accusantium!</p>
-
+                        <div className="brand">
+                            <h1>BaliNesia</h1>
                             <div className="social__links d-flex align-items-center gap-4">
                                 <span>
                                     <Link to='#'><i class='ri-youtube-line'></i></Link>

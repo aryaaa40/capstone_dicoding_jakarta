@@ -1,19 +1,21 @@
-import tourImg01 from "../images/tour-img01.jpg";
+import tourImg01 from "../images/tour-newimg01.jpg";
 import tourImg02 from "../images/tour-img02.jpg";
-import tourImg03 from "../images/tour-img03.jpg";
-import tourImg04 from "../images/tour-img04.jpg";
+import tourImg03 from "../images/tour-newimg03.jpg";
+import tourImg04 from "../images/tour-newimg04.jpg";
 import tourImg05 from "../images/tour-img05.jpg";
 import tourImg06 from "../images/tour-img06.jpg";
-import tourImg07 from "../images/tour-img07.jpg";
+
+import tourImg08 from "../images/tour-img08.jpg";
+import tourImg09 from "../images/tour-newimg08.jpg";
 
 const tours = [
   {
     id: "01",
-    title: "Westminister Bridge",
-    city: "London",
+    title: "Tirta Gangga",
+    city: "Bali",
     distance: 300,
     address: "Somewhere",
-    price: 99,
+    price: 80,
     maxGroupSize: 10,
     desc: "this is the description",
     reviews: [
@@ -33,11 +35,11 @@ const tours = [
   },
   {
     id: "02",
-    title: "Bali, Indonesia",
-    city: "Indonesia",
+    title: "Pantai Kuta",
+    city: "Bali",
     distance: 400,
     address: "Somewhere",
-    price: 99,
+    price: 75,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -52,11 +54,11 @@ const tours = [
   },
   {
     id: "03",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Uluwatu Temple",
+    city: "Bali",
     distance: 500,
     address: "Somewhere",
-    price: 99,
+    price: 85,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -71,11 +73,11 @@ const tours = [
   },
   {
     id: "04",
-    title: "Beautiful Sunrise, Thailand",
-    city: "Thailand",
+    title: "Pura Besakih",
+    city: "Bali",
     distance: 500,
     address: "Somewhere",
-    price: 99,
+    price: 20,
     maxGroupSize: 8,
     desc: "this is the description",
     reviews: [
@@ -90,8 +92,8 @@ const tours = [
   },
   {
     id: "05",
-    title: "Nusa Pendia Bali, Indonesia",
-    city: "Indonesia",
+    title: "Nusa Penida",
+    city: "Bali",
     distance: 500,
     address: "Somewhere",
     price: 99,
@@ -109,8 +111,8 @@ const tours = [
   },
   {
     id: "06",
-    title: "Cherry Blossoms Spring",
-    city: "Japan",
+    title: "Pantai Jimbaran",
+    city: "Bali",
     distance: 500,
     address: "Somewhere",
     price: 99,
@@ -128,10 +130,10 @@ const tours = [
   },
   {
     id: "07",
-    title: "Holmen Lofoten",
-    city: "France",
+    title: "Finns Beach Club",
+    city: "Bali",
     distance: 500,
-    address: "Somewhere",
+    address: "Jl Pantai Berawa, Canggu",
     price: 99,
     maxGroupSize: 8,
     desc: "this is the description",
@@ -139,13 +141,13 @@ const tours = [
 
     ],
     avgRating: 4.5,
-    photo: tourImg07,
+    photo: tourImg08,
     featured: false,
   },
   {
     id: "08",
-    title: "Snowy Mountains, Thailand",
-    city: "Thailand",
+    title: "Pantai Pandawa",
+    city: "Bali",
     distance: 500,
     address: "Somewhere",
     price: 99,
@@ -155,7 +157,7 @@ const tours = [
 
     ],
     avgRating: 4.5,
-    photo: tourImg03,
+    photo: tourImg09,
     featured: false,
   },
 ];

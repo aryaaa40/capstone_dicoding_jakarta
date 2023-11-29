@@ -39,46 +39,58 @@ const Testimonials = () => {
 
     return (<Slider{...settings}>
         <div className="testimonial py-4 px-3">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum blanditiis ex dolorum ipsam laborum architecto expedita magnam, atque quia repudiandae vel. Accusantium fuga fugiat illo, quia dolores excepturi odio aliquam.</p>
+            <p>Liburan yang luar biasa! Destinasi yang menakjubkan dengan pemandangan yang memesona. Layanan dari tim mereka sungguh ramah dan membantu.</p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava01} className='w-25 h-25 rounded-2' alt="" />
                 <div>
-                    <h6 className='mb-0 mt-3'>John Doe</h6>
+                    <h6 className='mb-0 mt-3'>Muhammad Abdul</h6>
                     <p>Customer</p>
                 </div>
             </div>
         </div>
         <div className="testimonial py-4 px-3">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum blanditiis ex dolorum ipsam laborum architecto expedita magnam, atque quia repudiandae vel. Accusantium fuga fugiat illo, quia dolores excepturi odio aliquam.</p>
+            <p>Pengalaman yang tak terlupakan! Paket perjalanan yang disusun dengan rapi, membuat liburan jadi lebih menyenangkan. Pasti akan kembali untuk petualangan lainnya.</p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
                 <div>
-                    <h6 className='mb-0 mt-3'>Lia Franklin</h6>
+                    <h6 className='mb-0 mt-3'>Dinda Kirana</h6>
                     <p>Customer</p>
                 </div>
             </div>
         </div>
         <div className="testimonial py-4 px-3">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum blanditiis ex dolorum ipsam laborum architecto expedita magnam, atque quia repudiandae vel. Accusantium fuga fugiat illo, quia dolores excepturi odio aliquam.</p>
+            <p>Saya sangat senang dengan pilihan paket liburan yang mereka tawarkan. Aktivitas yang seru, semuanya berjalan dengan sempurna. Aku akan kembali untuk liburan selanjutnya.</p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava03} className='w-25 h-25 rounded-2' alt="" />
                 <div>
-                    <h6 className='mb-0 mt-3'>John Doe</h6>
+                    <h6 className='mb-0 mt-3'>Kristian</h6>
                     <p>Customer</p>
                 </div>
             </div>
         </div>
 
         <div className="testimonial py-4 px-3">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum blanditiis ex dolorum ipsam laborum architecto expedita magnam, atque quia repudiandae vel. Accusantium fuga fugiat illo, quia dolores excepturi odio aliquam.</p>
+            <p>Pelayanan pelanggan yang luar biasa! Selalu responsif dan membantu menjawab setiap pertanyaan saya. Terima kasih sudah membuat liburan saya begitu menyenangkan.</p>
 
             <div className="d-flex align-items-center gap-4 mt-3">
                 <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
                 <div>
-                    <h6 className='mb-0 mt-3'>Lia Franklin</h6>
+                    <h6 className='mb-0 mt-3'>Salsabilla</h6>
+                    <p>Customer</p>
+                </div>
+            </div>
+        </div>
+
+        <div className="testimonial py-4 px-3">
+            <p>Perjalanan yang terencana dengan baik, pilihan destinasi yang mengagumkan, dan pengalaman yang memuaskan. Membuatku sangat puas dan keluargaku juga sangat menikmatinya.</p>
+
+            <div className="d-flex align-items-center gap-4 mt-3">
+                <img src={ava02} className='w-25 h-25 rounded-2' alt="" />
+                <div>
+                    <h6 className='mb-0 mt-3'>Kevin Nathan</h6>
                     <p>Customer</p>
                 </div>
             </div>

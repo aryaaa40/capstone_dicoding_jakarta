@@ -8,21 +8,11 @@ const Newsletter = () => {
     return (<section className='newsletter'>
         <Container>
             <Row>
-                <Col lg='6'>
+                <Col>
                     <div className="newsletter__content">
-                        <h2>Subscribe now to get useful traveling information.</h2>
-
-                        <div className="newsletter__input">
-                            <input type="email" placeholder='Enter your email' />
-                            <button className='btn newsletter__btn'>Subscribe</button>
-                        </div>
-
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nemo magnam numquam! Aspernatur, sapiente repellat.</p>
-                    </div>
-                </Col>
-                <Col lg='6'>
-                    <div className="newsletter__img">
-                        <img src={maleTourist} alt="" />
+                        <h1>Tunggu Apa Lagi?</h1>
+                        <p>Berlangganan sekarang untuk mendapatkan informasi perjalanan lebih detail.</p>
+                        <button className='btn newsletter__btn'>Daftar Akun</button>
                     </div>
                 </Col>
             </Row>
